@@ -7,6 +7,11 @@ public class Employee {
 	private String role;
 	private double salary;
 	
+	//0-arg constructor
+	public Employee() {
+		
+	}
+	
 	
 	//create a constructor and initialize the data member
 	public Employee(String name,String role,double salary) {
